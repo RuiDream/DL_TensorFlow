@@ -35,5 +35,3 @@ with tf.Session() as sess:
         start = (i * batch_size) % dataset_size
         end = min(start+batch_size,dataset_size)
         sess.run(train_step,feed_dict={x:X[start:end],y_:Y[start:end]})
-
-

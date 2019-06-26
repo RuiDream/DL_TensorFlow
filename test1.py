@@ -43,7 +43,7 @@ if __name__ == '__main__':
 
     #创建一个会话来运行TensorFlow程序
     with tf.Session() as sess:
-        init_op = tf.initialize_all_variables()
+        init_op = tf.global_variables_initializer()
         #初始化变量
         sess.run(init_op)
         print(sess.run(w1))
