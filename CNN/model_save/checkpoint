@@ -1,0 +1,2 @@
+model_checkpoint_path: "F:\\PythonProject\\MachineLearning\\MLProject\\NER\\NER-master\\test\\CNN\\model_save\\model.ckpt-1"
+all_model_checkpoint_paths: "F:\\PythonProject\\MachineLearning\\MLProject\\NER\\NER-master\\test\\CNN\\model_save\\model.ckpt-1"
